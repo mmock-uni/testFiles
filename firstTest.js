@@ -6,7 +6,7 @@ function x (value) {
       return 0;
   }
 }
-function x (value) {
+function y (value) {
   switch(expression) {
     case x>100:
       return 1;
