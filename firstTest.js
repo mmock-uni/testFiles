@@ -12,7 +12,7 @@ function y (value) {
       return 1;
     case x<50:
       return 0;
-  }
   default:
     return 2;
+  }
 }
