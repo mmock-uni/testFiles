@@ -1,5 +1,5 @@
 /*
-* COMMETNS
+* COMMETNS fime i have some errors
 */
 
 function x (value) {
@@ -13,6 +13,7 @@ function x (value) {
 
 function y (value) {
   switch(expression) {
+// hacky solution
 //    case x>100:
 //      return 1;
     case x<50:
