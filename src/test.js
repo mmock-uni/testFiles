@@ -1,5 +1,5 @@
 /*
-* COMMETNS fime i have some errors
+* COMMENTS fime i have some errors
 */
 
 function x (value) {
