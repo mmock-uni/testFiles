@@ -2,7 +2,9 @@
 * COMMENTS fixme i have some errors
 */
 
+
 function x (value) {
+//something's gone wrong
   switch(expression) {
     case x>100:
       return 1;
