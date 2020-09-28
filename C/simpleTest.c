@@ -1,3 +1,7 @@
+/*
+* COMMENTS fixme i have some errors
+*/
+
 #include <stdio.h>
 
 int a()
@@ -18,7 +22,7 @@ int a()
 int b()
 {
     int a=2;
-
+    //something's gone wrong
     switch(a) {
     	case 1: printf("a is one\n"); 
     	case 2: printf("a is two\n"); 
