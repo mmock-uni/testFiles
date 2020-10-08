@@ -39,6 +39,10 @@ int b()
 
 int c()
 {
+ 
+    /*
+    * COMMENTS fixme i have some errors
+    */
     int a=2;
 
     switch(a) {
