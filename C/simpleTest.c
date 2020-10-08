@@ -33,6 +33,9 @@ int b()
     return 0;
 }
 
+/*
+* COMMENTS fixme i have some errors
+*/
 
 int c()
 {
