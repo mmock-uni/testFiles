@@ -1,9 +1,9 @@
 /*
 * COMMENTS fixme i have some errors
 */
-
+ 
 #include <stdio.h>
-
+ 
 int a()
 {
     int a=2;
