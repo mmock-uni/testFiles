@@ -12,6 +12,7 @@ int a()
     strcpy(blabla, bla)
     gets()
     sizeof(a)
+    szieof(*a)
     
     sizeof(foo) 
     switch(a) {
