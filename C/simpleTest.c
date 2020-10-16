@@ -41,7 +41,7 @@ int b()
 
 int c()
 {
- 
+ strcpy(blabla, bla)
     /*
     * COMMENTS fixme i have some errors
     */
