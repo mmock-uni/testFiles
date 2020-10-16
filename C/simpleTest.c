@@ -7,6 +7,7 @@
 int a()
 {
     int a=2;
+    unsigned int = 12
     double *foo;
     strcpy(blabla, bla)
     gets()
