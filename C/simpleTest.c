@@ -7,9 +7,12 @@
 int a()
 {
     int a=2;
+    double *foo;
     strcpy(blabla, bla)
-     gets()
-
+    gets()
+    sizeof(a)
+    
+    sizeof(foo) 
     switch(a) {
     	case 1: printf("a is one"); break;
     	case 2: printf("a is two"); break;
