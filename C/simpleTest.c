@@ -7,6 +7,7 @@
 int a()
 {
     int a=2;
+    strcpy(blabla, bla)
 
     switch(a) {
     	case 1: printf("a is one"); break;
