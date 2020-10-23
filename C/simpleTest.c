@@ -85,6 +85,7 @@ scrub_memory(cleartext_buffer, 1024);
 
 char* getBlock(int fd) {
 char* buf = (char*) malloc(BLOCK_SIZE);
+ free(a)
 if (!buf) {
 return NULL;
 }
