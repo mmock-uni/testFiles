@@ -3,7 +3,7 @@
 */
  
 #include <stdio.h>
- 
+/* test */
 int a()
 {
     int a=2;
