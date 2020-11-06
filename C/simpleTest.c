@@ -21,7 +21,12 @@ int a()
     	case 3: printf("a is three"); break;
     	default: printf("a is something"); break;
     }
-
+    if(true)
+     do that
+      
+    if(true){
+     do that as well
+    }
     return 0;
 }
 
