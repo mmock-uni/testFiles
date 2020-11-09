@@ -9,7 +9,7 @@ int a()
     int a=2;
     unsigned int g = 12
     double *foo;
-    strcpy(blabla, bla)
+    StrCat(blabla, bla)
     gets()
     sizeof(a)
     sizeof(*bc)
