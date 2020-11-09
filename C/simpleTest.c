@@ -13,6 +13,7 @@ int a()
     gets()
     sizeof(a)
     sizeof(*bc)
+     safe_strcpy()
     
     sizeof(foo) 
     switch(a) {
