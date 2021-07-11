@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Test for cwe 242 and 676
-        uses: mmock-uni/td_action@v4.0.6
+        uses: mmock-uni/td_action@v4.0.7
         with:
           issue-number: "242, 14"
           who-to-greet: 'Mona the Octocat'
