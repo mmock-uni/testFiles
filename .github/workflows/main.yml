@@ -4,14 +4,9 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Test for TD
     steps:
       - uses: actions/checkout@v2
-      - name: Hello world action step
+      - name: Test for cwe 242 and 676
         id: hello
-        uses: mmock-uni/td_action@v3.2.18
-        with:
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+        uses: mmock-uni/td_action@v4
