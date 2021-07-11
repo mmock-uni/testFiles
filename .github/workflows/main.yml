@@ -9,3 +9,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Test for cwe 242 and 676
         uses: mmock-uni/td_action@v4.0.12
+        with:
+          number-issues: "242, 14, 676"
