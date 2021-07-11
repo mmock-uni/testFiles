@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Test for cwe 242 and 676
         id: hello
-        uses: mmock-uni/td_action@v4
+        uses: mmock-uni/td_action@v4.0.1
