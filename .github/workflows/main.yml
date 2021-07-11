@@ -2,7 +2,7 @@ name: TD-MMock
 on: [push]
 
 jobs:
-  hello_world_job:
+  test_run:
     runs-on: ubuntu-latest
     name: Test for TD
     steps:
