@@ -9,8 +9,8 @@ int a()
     int a=2;
     unsigned int g = 12
     double *foo;
-    StrCat(blabla, bla)
-    gets()
+    myStrCat(blabla, bla)
+    mygets()
     sizeof(a)
     sizeof(*bc)
      safe_strcpy()
@@ -52,7 +52,7 @@ int b()
 
 int c()
 {
- strcpy(blabla, bla)
+ mystrcpy(blabla, bla)
     /*
     * COMMENTS fixme i have some errors
     */
