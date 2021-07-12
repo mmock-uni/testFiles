@@ -126,7 +126,7 @@ pthread_sigmask (int how, sigset_t const *set, sigset_t * oset)
   /* Copy the old mask before modifying it. */
   if (oset != NULL)
     {
-      memcpy (oset, &(thread.p->sigmask), sizeof (sigset_t));
+      MYmemcpy (oset, &(thread.p->sigmask), sizeof (sigset_t));
     }
 
   if (set != NULL)
@@ -156,7 +156,7 @@ pthread_sigmask (int how, sigset_t const *set, sigset_t * oset)
 	    }
 	case SIG_SETMASK:
 	  /* Replace the whole sigmask. */
-	  memcpy (&(thread.p->sigmask), set, sizeof (sigset_t));
+	  MYmemcpy (&(thread.p->sigmask), set, sizeof (sigset_t));
 	  break;
 	}
     }
